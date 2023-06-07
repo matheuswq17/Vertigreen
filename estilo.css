@@ -26,8 +26,9 @@
   box-sizing: border-box;
 }
 
-body{
+.body{
   background: var(--body-bg-color);
+  align-items: center;
 }
 
 .main-container{
@@ -48,6 +49,7 @@ body{
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 40px;
   margin: 50px 0;
+  align-items: center;
 }
 
 .pricing-card{
@@ -61,19 +63,23 @@ body{
   border-radius: 0 0 10px 10px;
   box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
   margin-top: 60px;
+  align-items: center;
 }
 
 .card-body .top-shape{
   clip-path: polygon(0 0, 100% 0%, 100% 50%, 50% 75%, 0 50%);
   height: 200px;
+  align-items: center;
 }
 
 .card-01 .card-body .top-shape{
   background: var(--card-01-color-01);
+  align: center;
 }
 
 .card-02 .card-body .top-shape{
   background: var(--card-02-color-01);
+  align: center;
 }
 
 .card-03 .card-body .top-shape{
